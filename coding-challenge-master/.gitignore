@@ -1,0 +1,16 @@
+# build artifacts
+.gradle/
+build/
+local.properties
+
+#idea folder: we generally ignore all IDEA settings but some special ones
+.idea/*
+!.idea/copyright/
+!.idea/codeStyleSettings.xml
+!.idea/codeStyles/
+
+# remove apple junk
+.DS_Store
+
+# ignore IDEA project defs
+*.iml
